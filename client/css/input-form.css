@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  right: 0;
+  box-shadow: 10px 5px 30px rgb(85, 85, 85);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul li a {
+  margin: 0px;
+  padding-top: 60px;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.active {
+  color: red;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+}
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../bilder/pexels-pixabay-434337.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 500px;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  color: white;
+}
+
+footer {
+  background-color: #0e0e0e;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: end;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  /* bottom: 0;*/
+  left: 0;
+  visibility: hidden;
+  font-size: .75rem;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #009688;
+  border: 2px solid #009688;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}

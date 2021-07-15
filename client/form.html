@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/input-form.css" />
+  <title>Form Validator</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="active">
+          <a class="nav-link" href="form.html">Formular</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerie.html">Galerie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="random.html">Bild Generator</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Please register to get full access.</h2>
+
+        <div class="form-control">
+          <label for="firstname">Firstname</label>
+          <input type="text" id="firstname" placeholder="Hans" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="lastname">Lastname</label>
+          <input type="text" id="lastname" placeholder="Muster" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="hansmuster" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="hans@muster.com" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="mobile">Mobile</label>
+          <input type="number" id="mobile" placeholder="012 345 67 89" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Password" />
+          <small>Error message</small>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="script/validate-inputs.js"></script>
+  </main>
+
+  <footer>
+    <p>Leistungsbeurteilung | Alissa Lopez | Noel Koller | Modul 307</p>
+  </footer>
+
+</body>
+
+
+</html>

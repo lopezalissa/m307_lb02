@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    padding: 210px;
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../bilder/pexels-pixabay-434337.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    box-shadow: 10px 5px 30px rgb(85, 85, 85);
+}
+
+footer p {
+    margin-bottom: .25rem;
+    color: white;
+}
+
+footer {
+    background-color: #0e0e0e;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: end;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    font-weight: bold;
+}
+
+.card {
+    margin: 50px;
+}
+
+nav ul li a {
+    margin: 0px;
+    padding-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+}
+
+
+h3,
+p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h3,
+h1 {
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+#active {
+    font-weight: bold;
+}
+
+.logo {
+    width: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+#moreBtnContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.video {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+
+}
+
+div.video:hover {
+    border: 1px solid #777;
+}
+
+div.video video {
+    width: 100%;
+    height: auto;
+}
+
+.mitte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-text {
+    text-align: left;
+}
+
+#song {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em;
+}
+
+.songtitel {
+    margin-right: 2em;
+}
+
+#button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;      
+}
+
+.text-muted {
+    color: black !important;
+}
+
+.btn-primary {
+    background-color: white !important;
+}
